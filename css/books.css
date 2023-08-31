@@ -92,36 +92,11 @@ main{
     width:100%;
     margin-bottom: 20px;
 }
-.banner-container
-{
-    position: relative;
-    width:100%;
-    height:18vw;
-    background-image: url(../images/website\ MC\ banner.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: contain;
-}
-.slider
-{
-    position:relative;
-    max-width: 50vw;
-    height:18vw;
-    overflow: hidden;
-    margin:0 auto;
-}
-.slider img{
-    width:50vw;
-    height:17vw;
-    object-fit: cover;
-    position: relative;
-    margin: 7px;
-    border:2px solid white;
-}
 .page-content
 {
     height:100; 
     margin-top:10px;
+    font-family:'texas';
 }
 .Comics
 {
@@ -129,130 +104,69 @@ main{
     height:100;
     border-radius: 10px;
     position: relative;
-    font-size: 1.3rem;
+    
     background-color: white;
+    background-image: url(../images/content-page-curl.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right !important;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
-.Comics .btn-all
-{
-    width:95%;
-    margin-right:0;
-    position:relative;
-}
-.btn-all button
-{
-    position: relative;
-    float:right;
-    width:100px;
-    height:25px;
-    background-color: red;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-family: inherit;
-    font-size: 1.3rem;
-    text-shadow:1px 1px 1px #000;
-}
-.btn-all button:hover{
-    background-color: #f3b000;
-}
-.com-con
-{
-    width:100%;
-    height:100;
-    display: flex;
-    position: relative;
-    font-size: 1.3rem;
-    flex-wrap: wrap;
-    font-family:'texas',arial,sans-serif !important;
-}
-.com-books
-{
-    /*flex: 1;*/
-    width:25vw;
-    height:50vw;
-    background-color: #f4f5f9;
-    border-radius: 5px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    margin:10px;
-    list-style: none;
-    position: relative;
-}
-.com-cover
-{
-    position: relative;
-    background-color: #f3b000;
-    width:25vw;
-    height:30vw;
-}
-.com-cover img{
-    width:25vw;
-    height:30vw;
-    object-fit: cover;
-}
-.com-content{
-    position: relative;
-    margin:0 auto;
-    height:3vw;
-    margin-top:1.2rem;
-    text-align: center;
-    color: #344056;
-}
-.com-content h1{
+.Comics h1{
+    margin: 20px;
     font-weight: bold;
 }
-.com-content p{
-    margin:1rem;
-    font-size:1rem;
-    color: #91959e;
+.Comics p{
+    margin-left: 20px;
+    justify-content: center;
 }
-.com-content .story
+.downlaod-section
 {
-    height:150px;
+    text-align: center;
 }
-.com-content .story p{
-    color:#344056;
+.downlaod-section h1{
+    font-size: 1.5rem;
 }
-.com-books:hover{
-    box-shadow: 1px 1px 10px black;
+.downlaod-section h3{
+    margin:10px;
 }
-.com-books .post-date
+.downlaod-section h2{
+    margin:20px;
+}
+.dwn-btn
 {
-    bottom: 0;
-    position: absolute;
-    right:0;
-    font-size:0.9rem;
-    padding: 0.4rem;
-    color: #91959e;
+   width:100;
+   list-style: none;
 }
-.About
-{
-    width:100%;
-    height:100px;
-    background-color: white;
-    border-radius:10px;
-    position: relative;
-    margin-top:10px;
-    background-image: url(../images/content-page-curl.jpg);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    padding: 10px;
+.dwn-btn li{
+    margin: 25px;
 }
-.Contact
+.dwn-btn li button
 {
-    width:100%;
-    height:100px;
-    background-color: white;
-    border-radius:10px;
-    position: relative;
-    margin-top:10px;
-    background-image: url(../images/content-page-curl.jpg);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    padding: 10px;
+    width:150px;
+    height:40px;
+    background-color: #df0000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+}
+.dwn-btn li button:hover
+{
+    background-color: #c70c0d;
+}
+.dwn-notes
+{
+    margin-left: 20px;
+}
+.dwn-notes h1{
+    margin-left: 0;
+}
+.dwn-notes ul li{
+    margin:10px;
 }
 footer{
     width:85%;
@@ -273,4 +187,13 @@ footer{
 footer .copy
 {
     margin:10px;
+}
+.cm-poster{
+   margin-left: auto;
+   margin-right: auto;
+    position: relative;
+
+}
+.cm-poster img{
+    width:300px;
 }
