@@ -153,10 +153,12 @@ main{
     border-radius: 5px;
     color: white;
     font-family: inherit;
+    transition: transform .2s;
 }
 .dwn-btn li button:hover
 {
     background-color: #c70c0d;
+    transform: scale(1.2); 
 }
 .dwn-notes
 {
