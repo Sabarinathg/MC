@@ -214,10 +214,14 @@ main{
 }
 .com-content .story
 {
-    height:150px;
+    height:130px;
+    overflow: hidden;
+    width:100%;
 }
 .com-content .story p{
     color:#344056;
+    text-align: justify;
+  text-justify: inter-word;
 }
 .com-books:hover{
     box-shadow: 1px 1px 10px black;

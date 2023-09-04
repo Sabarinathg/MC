@@ -4,7 +4,7 @@ py.textContent=year;
 
 // Function to convert UTC date to Indian Standard Time (IST)
 function convertToIST(utcDate) {
-  const istOffset = 5.5 * 60 * 60 * 1000; // IST is 5 hours and 30 minutes ahead of UTC
+  const istOffset = 6.5 * 60 * 60 * 1000; // IST is 5 hours and 30 minutes ahead of UTC
   const utcTimestamp = new Date(utcDate).getTime();
   const istTimestamp = utcTimestamp + istOffset;
   return new Date(istTimestamp);
@@ -25,17 +25,17 @@ function formatDateIST(postedDate) {
   const years = Math.floor(months / 12);
 
   if (years > 0) {
-    return years === 1 ? '1 year ago' : `${years} years ago`;
+    return years === 1 ? '1 year ago' : `${years} years Ago`;
   } else if (months > 0) {
-    return months === 1 ? '1 month ago' : `${months} months ago`;
+    return months === 1 ? '1 month ago' : `${months} months Ago`;
   } else if (weeks > 0) {
-    return weeks === 1 ? '1 week ago' : `${weeks} weeks ago`;
+    return weeks === 1 ? '1 week ago' : `${weeks} weeks Ago`;
   } else if (days > 0) {
-    return days === 1 ? '1 day ago' : `${days} days ago`;
+    return days === 1 ? '1 day ago' : `${days} days Ago`;
   } else if (hours > 0) {
-    return hours === 1 ? '1 hour ago' : `${hours} hours ago`;
+    return hours === 1 ? '1 hour ago' : `${hours} hours Ago`;
   } else if (minutes > 0) {
-    return minutes === 1 ? '1 minute ago' : `${minutes} minutes ago`;
+    return minutes === 1 ? '1 minute ago' : `${minutes} minutes Ago`;
   } else {
     return 'Just now';
   }
