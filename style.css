@@ -303,6 +303,13 @@ main{
     background-position: right bottom;
     padding: 10px;
 }
+.Contact h2{
+    text-align: center;
+    font-family: 'texas';
+}
+.Contact ul{
+    list-style: none;
+}
 footer{
     width:85%;
     height: 3vw;
