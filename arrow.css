@@ -6,7 +6,7 @@
     position: fixed;
     right:0;
     bottom:0;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 50px;
     border-radius: 50%;
     display: flex;
@@ -16,6 +16,7 @@
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
+    z-index: 2;
 }
 .mtt.active
 {
