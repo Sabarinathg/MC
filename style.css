@@ -216,7 +216,7 @@ main{
 {
     height:130px;
     overflow: hidden;
-    width:100%;
+    width:100;
 }
 .com-content .story p{
     color:#344056;
@@ -230,7 +230,11 @@ main{
 {
     bottom: 0;
     position: absolute;
-    right:0;
+    background-color: #f4f5f9;
+    width:100%;
+}
+.com-books .post-date p{
+    text-align:right;
     font-size:0.9rem;
     padding: 0.4rem;
     color: #91959e;
