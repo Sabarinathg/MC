@@ -50,7 +50,7 @@ header
 header .logo
 {
     position: relative;
-    width:140vh;
+    width:65vw;
     height:13vw;
     left:20%;
     display: flex;
@@ -64,7 +64,7 @@ header .logo
     width:300px;
     object-fit: contain;
     position: absolute;
-    right: 0;
+    right:0vw;
 }
 header .options
 {
