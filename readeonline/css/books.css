@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    min-width:100%;
+    min-height:100vh;
+    position: absolute;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family:'KomikaTextTightRegular' ;
+    src: url(../../../fonts/KOMTXTT_.ttf);
+}
+@font-face {
+    font-family: 'texas';
+    src: url(../../../fonts/Montserrat-SemiBold.ttf);
+}
+body
+{
+    background-color: black;
+    background-image: url(../../../images/bg-body.jpg);
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'KomikaTextTightRegular', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.main-continer
+{
+    width: 85%;
+    height:100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+header
+{  
+    position: relative;
+    width:100%;
+    height: 100;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 1px black;
+}
+header .logo
+{
+    position: relative;
+    width:13vw;
+    height:13vw;
+    left:20%;
+}
+.logo img{
+    width:13vw;
+    height:13vw;
+}
+header .options
+{
+    position: relative;
+    display: flex;
+    list-style: none;
+    float: right;
+    color:white;
+    margin-right:20px;
+}
+.options li {
+    margin-left:50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius:15px;
+    border-bottom: 40px solid transparent;
+    border-left: 10px solid transparent;
+    height: 0;
+    width: 100px;
+}
+.options li:hover{
+    border-bottom: 40px solid #f3b000;
+}
+li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:6px;
+    text-decoration: none;
+    color:white;
+}
+main{
+    position:relative;
+    width:100%;
+    margin-bottom: 20px;
+}
+.page-content
+{
+    height:100; 
+    margin-top:10px;
+    font-family:'texas';
+}
+.Comics
+{
+    width:100%;
+    height:100;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    background-image: url(../../../images/content-page-curl.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right !important;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.Comics iframe
+{
+    border: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+}
+.Comics h1{
+    font-size: 2rem;
+    margin:15px;
+}
+.Comics p{
+    margin:0px 10px 10px 15px; /*top right bottom left*/
+}
+.Comics .btn
+{
+    margin:20px auto 20px auto ;
+}
+.Comics .btn button{
+    width:150px;
+    height:40px;
+    background-color: #df0000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: inherit;
+    transition: transform .2s;
+}
+.Comics .btn button:hover
+{
+    background-color: #c70c0d;
+    transform: scale(1.1); 
+}
+
+footer{
+    width:85%;
+    height: 3vw;
+    background-color: #000;
+    position:static;
+    bottom: 0;
+    margin:0 auto;
+    background-image: url(../../../images/bg-footer-line.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color:white;
+    background-color: #000;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+footer .copy
+{
+    margin:10px;
+}
+
