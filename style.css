@@ -54,7 +54,6 @@ header .logo
     height:13vw;
     left:20%;
     display: flex;
-    background-color: #f3b000;
 }
 .logo img{
     width:13vw;
@@ -64,8 +63,9 @@ header .logo
 .lg-logo-text img{
     width:300px;
     object-fit: contain;
-    position: absolute;
-    right: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header .options
