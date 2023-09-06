@@ -50,10 +50,11 @@ header
 header .logo
 {
     position: relative;
-    width:13vh;
+    width:65vw;
     height:13vw;
     left:20%;
     display: flex;
+    background-color: #f3b000;
 }
 .logo img{
     width:13vw;
