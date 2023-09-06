@@ -50,13 +50,21 @@ header
 header .logo
 {
     position: relative;
-    width:13vw;
+    width:140vh;
     height:13vw;
     left:20%;
+    display: flex;
 }
 .logo img{
     width:13vw;
     height:13vw;
+    cursor: pointer;
+}
+.lg-logo-text img{
+    width:300px;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
 }
 header .options
 {
