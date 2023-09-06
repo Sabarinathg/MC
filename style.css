@@ -123,9 +123,9 @@ main{
     width:50vw;
     height:17vw;
     object-fit: cover;
+    background-color: #f4f5f9;
     position: relative;
-    margin: 7px;
-    border:2px solid white;
+    margin: 6px;
 }
 .page-content
 {
