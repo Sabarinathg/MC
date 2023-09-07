@@ -375,11 +375,3 @@ footer .copy
     width:200px;
     object-fit: contain;
 }
-#preloader
-{
-    height:100vh;
-    width:100%;
-    position: fixed;
-    background-color: #000;
-    z-index: 100;
-}

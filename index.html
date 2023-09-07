@@ -7,6 +7,7 @@
 
     <linK rel="stylesheet" href="style.css">
     <linK rel="stylesheet" href="arrow.css">
+    <linK rel="stylesheet" href="loading.css">
 
     <script type="module" src="arrow.js"></script>
     <script type="module" src="main.js"></script>
@@ -16,7 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div id="preloader"></div>
+    <div id="preloader">
+        <div class="ring">
+            <img src="images/anima -2.png">
+        </div>
+    </div>
 
     <div  class="mtt active" id="return-to-top">
         <a href="#"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
@@ -27,7 +32,7 @@
             <div class="logo" >
                 <img src="images/Minnal Comics.png" alt="logo" loading="eager" onclick="window.location='index.html';">
                 <div class="lg-logo-text">
-                    <img src="images/minnal re creation copy.png">
+                    <img src="images/minnal re creation copy.png" loading="eager">
                 </div>
             </div>
             <ul class="options">
@@ -126,5 +131,13 @@
             <p>Copyright &copy; <span id="year">year</span> All rights reserved to Minnal Comics</p>
         </div>
     </footer>
+    <script>
+        var loader=document.getElementById("preloader")
+        window.addEventListener('load',function()
+        {
+        loader.style.display="none";
+        });
+
+    </script>
 </body>
 </html>
